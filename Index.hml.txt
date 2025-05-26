@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>פלא מחשבים - שירותי מחשוב מתקדמים</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    nav {
+      background: #1565c0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      animation: fadeIn 1s ease-in;
+    }
+
+    footer {
+      background: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      box-shadow: 0 0 10px #888;
+      z-index: 1000;
+    }
+
+    .whatsapp:hover {
+      background: #1ebea5;
+    }
+
+    .icon {
+      width: 24px;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>פלא מחשבים</h1>
+  <p>שירותי מחשוב מקצועיים מאז 2000</p>
+</header>
+
+<nav>
+  <a href="#about">אודות</a>
+  <a href="#services">שירותים</a>
+  <a href="#gallery">גלריה</a>
+  <a href="#contact">צור קשר</a>
+</nav>
+
+<div class="container">
+
+  <div class="section" id="about">
+    <h2>אודות</h2>
+    <p>פלא מחשבים הוקמה בשנת 2000 ומאז מספקת שירותי מחשוב מהירים, אמינים ומקצועיים לתושבי אשקלון והסביבה.</p>
+  </div>
+
+  <div class="section" id="services">
+    <h2>השירותים שלנו</h2>
+    <ul>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" class="icon">תיקון מחשבים</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/2541/2541984.png" class="icon">מכירת אביזרי מחשוב</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/3076/3076129.png" class="icon">הסרת וירוסים ואבטחת מידע</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/1087/1087926.png" class="icon">תמיכה מרחוק</li>
+    </ul>
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>גלריה</h2>
+    <img src="https://images.unsplash.com/photo-1581091012184-5c8afc0b95ee?auto=format&fit=crop&w=800&q=80" style="width:100%; border-radius:8px; margin-bottom:10px;">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80" style="width:100%; border-radius:8px;">
+  </div>
+
+  <div class="section" id="contact">
+    <h2>צור קשר</h2>
+    <p>📞 טלפון / וואטסאפ: <strong>052-4576900</strong></p>
+    <p>📧 מייל: <a href="mailto:info@pelecomputers.co.il">info@pelecomputers.co.il</a></p>
+    <p>📍 מיקום: אשקלון, ישראל</p>
+  </div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/972524576900" target="_blank">📱</a>
+
+<footer>
+  <p>© כל הזכויות שמורות לפלא מחשבים 2025</p>
+</footer>
+
+</body>
+</html>
